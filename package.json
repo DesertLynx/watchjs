@@ -1,0 +1,15 @@
+{
+  "name": "watchjs",
+  "bin": "watch.js",
+  "version": "1.0.0",
+  "description": "A simple js based replacement for the shell utility `watch` ",
+  "main": "watch.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
