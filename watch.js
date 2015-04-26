@@ -18,7 +18,7 @@ watchjs <shell comd to repeat>
 const waitTime = 2000; 
 
 function execFunction () {
-    const output = c.spawnSync(args[0], args.splice(1));
+    const output = c.spawnSync(args[0], args.slice(1));
     if(output.error){
         console.error(output.error);
     }
